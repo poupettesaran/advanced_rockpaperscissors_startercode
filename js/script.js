@@ -2,10 +2,7 @@
         // Fork and clone the repo and set up your project workspace and link files
         // Write HTML for your project
 //Class 2:  
-  var userChoice = "";
-  var computerChoice = "";
-  var winner = "";
-  var choices = ["rock", "paper", "scissors"];
+
   
         // Declare four global variables for intial state of the list of choices, the computer choice, the user choice, and the winner.  
         // Practice using console.log() and debugger to debug your code
@@ -13,6 +10,7 @@
         // Create a click hander for when the "Shoot!" button is clicked, takes in the user choice from the input field, 
         // Display the user choice to the output screen
 //Class 3:  
+
         // Randomly choose among 'rock', 'paper', or 'scissors' from the list of choices 
         // Display the computer choice to the output screen
         // Compare the user choice and the computer choice to determine who won. 
@@ -24,12 +22,42 @@
 //****************** SERIOUSLY TEST USING console.log()!!! ******************
 
 //GLOBAL VARIABLES
-
+var userChoice = "";
+  var computerChoice = "";
+  var winner = "";
+  var choices = ["rock", "paper", "scissors"];
+  
 
 
 //FUNCTIONS
 
+var random = Math.random();
+console.log("------");
+console.log(random);
+var randomBigger = random *choices.length;
+console.log(randomBigger);
+randomBigger = Math.floor(randomBigger);
+console.log(randomBigger);
+console.log(choices[randomBigger]);
 
 
 // DOCUMENT READY FUNCTION
+$( document ).ready(function() {
+    
+    
+   $("#userChoice").click(function(){    
+       $("#userchoise").html()
+        
+     
+    });
+    
+    
+    
+    
+    
+    
+    
+    
+});
 
+  
